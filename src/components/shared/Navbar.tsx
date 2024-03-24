@@ -18,7 +18,7 @@ const navItem = (
 
 
   return (
-    <div className="navbar bg-base-100  border-b  w-[90%] mx-auto">
+    <div className="navbar text-white bg-base-100  border-b  w-[90%] mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,7 +45,7 @@ const navItem = (
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
-          Baby <span className="text-violet-700">
+          Baby <span className="text-violet-500">
           Care
             </span> Store
         </Link>
