@@ -1,6 +1,22 @@
 import Link from "next/link";
 
 const Navbar = () => {
+
+const navItem = (
+
+<>
+    <li>Home</li>
+    <li>Categories</li>
+    <li>Products</li>
+    <li>Flash Sale</li>
+    <li>About Us</li>
+    <li>Contact Us</li>
+
+    </>
+)
+
+
+
   return (
     <div className="navbar bg-base-100  border-b  w-[90%] mx-auto">
       <div className="navbar-start">
@@ -25,40 +41,23 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-
-            <li>
-              <Link href="/about">About Us</Link>
-            </li>
-            <li>
-              <Link href="/support">Support</Link>
-            </li>
+            {navItem}
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
-          NextAuth
+          Baby <span className="text-violet-700">
+          Care
+            </span> Store
         </Link>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-
-          <li>
-            <Link href="/about">About Us</Link>
-          </li>
-          <li>
-            <Link href="/support">Support</Link>
-          </li>
-          <li>
-            <Link href="/dashboard">Dashboard</Link>
-          </li>
+      <div className="navbar-center hidden  lg:flex">
+        <ul className="menu menu-horizontal px-1 gap-4">
+       {navItem}
         </ul>
       </div>
-      
+      <div className="navbar-end">
+        <a href="/dashboard">Dashboard</a>
+      </div>
      
     </div>
   );
