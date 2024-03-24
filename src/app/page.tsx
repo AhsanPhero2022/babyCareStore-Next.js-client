@@ -1,9 +1,13 @@
-const HomePage = () => {
+import HeroPage from "@/components/shared/Home/heroSection/page";
+import Homepage from "@/components/shared/Home/page";
+
+const Home = () => {
   return (
     <div>
-      <h1 className="text-4xl text-center mt-10">Welcome To Home Page</h1>
+     <Homepage/>
+
     </div>
   );
 };
 
-export default HomePage;
+export default Home;
