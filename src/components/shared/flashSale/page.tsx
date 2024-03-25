@@ -11,7 +11,9 @@ const products = await fetch("http://localhost:5000/products", {
 });
 const data = await products.json();
 
-
+data.sort((a:TProduct, b:TProduct)  => {
+  return new Date(a.time_for_sorting).getTime() - new Date(b.time_for_sorting).getTime();
+});
 
   return (
     <div>
@@ -42,8 +44,9 @@ const data = await products.json();
             <div className="card-body">
               <h2 className="card-title">{product.name}</h2>
               <p>{product.description}</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+              <div className="card-actions ">
+                <p className="text-red-500 text-sm">Offer Time: {product.time_for_sorting}</p>
+                <p className="">Discount:  <span className="text-red-500 text-sm">{product.discount}</span></p>
               </div>
             </div>
           </div>
