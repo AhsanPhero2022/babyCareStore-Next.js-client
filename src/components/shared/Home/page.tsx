@@ -47,9 +47,66 @@ const Homepage = () => {
               <div className="flex justify-between items-center ">
               <p className="text-white text-sm">
               
-              <span className="text-gray-300 me-5 ">$670 </span> $500
+              <span className="text-gray-300 me-5 ">$770 </span> $500
             </p>
-            <p className="text-sm text-red-500">Discount: -13%</p>
+            <p className="text-sm text-red-500">Discount: -23%</p>
+              </div>
+            </div>
+          </div>
+          <div className="px-4">
+            <Image
+              width={500}
+              height={500}
+              className="rounded-md h-[330px] "
+              alt="Image Loading..."
+              src="https://sblglobal.com/admin/public/uploads/products/20230102072943_84.jpg"
+            />
+            <div>
+              <h3 className="text-white my-3">Daily care shampoo </h3>
+              <div className="flex justify-between items-center ">
+              <p className="text-white text-sm">
+              
+              <span className="text-gray-300 me-5 ">$630 </span> $500
+            </p>
+            <p className="text-sm text-red-500">Discount: -18%</p>
+              </div>
+            </div>
+          </div>
+          <div className="px-4">
+            <Image
+              width={500}
+              height={500}
+              className="rounded-md h-[330px] "
+              alt="Image Loading..."
+              src="https://sblglobal.com/admin/public/uploads/products/20230102072943_84.jpg"
+            />
+            <div>
+              <h3 className="text-white my-3">Daily care shampoo </h3>
+              <div className="flex justify-between items-center ">
+              <p className="text-white text-sm">
+              
+              <span className="text-gray-300 me-5 ">$625 </span> $500
+            </p>
+            <p className="text-sm text-red-500">Discount: -15%</p>
+              </div>
+            </div>
+          </div>
+          <div className="px-4">
+            <Image
+              width={500}
+              height={500}
+              className="rounded-md h-[330px] "
+              alt="Image Loading..."
+              src="https://sblglobal.com/admin/public/uploads/products/20230102072943_84.jpg"
+            />
+            <div>
+              <h3 className="text-white my-3">Daily care shampoo </h3>
+              <div className="flex justify-between items-center ">
+              <p className="text-white text-sm">
+              
+              <span className="text-gray-300 me-5 ">$750 </span> $500
+            </p>
+            <p className="text-sm text-red-500">Discount: -32%</p>
               </div>
             </div>
           </div>
@@ -87,7 +144,7 @@ const Homepage = () => {
               
               <span className="text-gray-300 me-5 ">$670 </span> $500
             </p>
-            <p className="text-sm text-red-500">Discount: -13%</p>
+            <p className="text-sm text-red-500">Discount: -17%</p>
               </div>
             </div>
           </div>
@@ -106,64 +163,7 @@ const Homepage = () => {
               
               <span className="text-gray-300 me-5 ">$670 </span> $500
             </p>
-            <p className="text-sm text-red-500">Discount: -13%</p>
-              </div>
-            </div>
-          </div>
-          <div className="px-4">
-            <Image
-              width={500}
-              height={500}
-              className="rounded-md h-[330px] "
-              alt="Image Loading..."
-              src="https://sblglobal.com/admin/public/uploads/products/20230102072943_84.jpg"
-            />
-            <div>
-              <h3 className="text-white my-3">Daily care shampoo </h3>
-              <div className="flex justify-between items-center ">
-              <p className="text-white text-sm">
-              
-              <span className="text-gray-300 me-5 ">$670 </span> $500
-            </p>
-            <p className="text-sm text-red-500">Discount: -13%</p>
-              </div>
-            </div>
-          </div>
-          <div className="px-4">
-            <Image
-              width={500}
-              height={500}
-              className="rounded-md h-[330px] "
-              alt="Image Loading..."
-              src="https://sblglobal.com/admin/public/uploads/products/20230102072943_84.jpg"
-            />
-            <div>
-              <h3 className="text-white my-3">Daily care shampoo </h3>
-              <div className="flex justify-between items-center ">
-              <p className="text-white text-sm">
-              
-              <span className="text-gray-300 me-5 ">$670 </span> $500
-            </p>
-            <p className="text-sm text-red-500">Discount: -13%</p>
-              </div>
-            </div>
-          </div>
-          <div className="px-4">
-            <Image
-              width={500}
-              height={500}
-              className="rounded-md h-[330px] "
-              alt="Image Loading..."
-              src="https://sblglobal.com/admin/public/uploads/products/20230102072943_84.jpg"
-            />
-            <div>
-              <h3 className="text-white my-3">Daily care shampoo </h3>
-              <div className="flex justify-between items-center ">
-              <p className="text-white text-sm">
-              
-              <span className="text-gray-300 me-5 ">$670 </span> $500
-            </p>
-            <p className="text-sm text-red-500">Discount: -13%</p>
+            <p className="text-sm text-red-500">Discount: -33%</p>
               </div>
             </div>
           </div>
