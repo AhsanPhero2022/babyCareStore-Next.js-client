@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Next Auth",
@@ -18,6 +19,7 @@ export default async function RootLayout({
       <body>
         <Navbar />
         <div className="min-h-screen w-[100%] mx-auto">{children}</div>
+        <Footer/>
       </body>
     </html>
   );

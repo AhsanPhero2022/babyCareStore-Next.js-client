@@ -2,35 +2,32 @@ import { TProduct } from "@/components/type/type";
 import Image from "next/image";
 
 
-const PopularProductsPage = async() => {
+
+const FlashSalePage = async() => {
 
     const products = await fetch("http://localhost:5000/products", {
-       cache : 'no-cache'
+       cache: 'no-cache'
       });
       const data = await products.json();
 
-
     return (
-        <div className='my-12'>
-            <div className='flex justify-between items-center my-8'>
-                <div className=''>
-                    <h1 className='text-3xl font-bold '>Most Popular Products</h1>
-                    <p>Excellence in every aspect of baby care. nourishing feeding solutions.</p>
-                </div>
-                <button className='btn bg-gray-700 text-white'>View All</button>
+        <div className="my-12">
+            <div>
+                <h1 className='text-3xl font-bold my-8 '>Flash Sale</h1>
+                <p className='my-8'>Here is all flash sale products available</p>
             </div>
             <div>
         {
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
-        {data?.slice(0, 8).map((product:TProduct) => (
+        {data?.map((product:TProduct) => (
           <div className="card relative w-96 bg-base-100 shadow-xl" key={product._id}>
             <figure>
               <Image
-                width={200}
-                height={200}
+                width={400}
+                height={400}
                 src={product.image}
                 alt="Product"
-              />            
+              />
             </figure>
             <div className="card-body">
               <h2 className="card-title">{product.name}</h2>
@@ -50,4 +47,4 @@ const PopularProductsPage = async() => {
     );
 };
 
-export default PopularProductsPage;
+export default FlashSalePage;

@@ -1,5 +1,6 @@
 import { TProduct } from "@/components/type/type";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const FlashSalePage = async () => {
@@ -23,20 +24,22 @@ data.sort((a:TProduct, b:TProduct)  => {
         
         </div>
         <div>
-          <button className="btn bg-gray-700 text-white">
+         <Link href='/flashSale'>
+         <button className="btn bg-gray-700 text-white">
           View all
           </button>
+         </Link>
         </div>
       </div>
       <div>
         {
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4 mx-auto">
         {data?.slice(0, 6).map((product:TProduct) => (
-          <div className="card relative w-96 bg-base-100 shadow-xl" key={product._id}>
+          <div className="card relative w-auto bg-base-100 shadow-xl" key={product._id}>
             <figure>
               <Image
-                width={200}
-                height={200}
+                width={500}
+                height={400}
                 src={product.image}
                 alt="Product"
               />

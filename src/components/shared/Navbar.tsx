@@ -5,10 +5,14 @@ const Navbar = () => {
 const navItem = (
 
 <>
+    <Link href='/'>
     <li>Home</li>
+    </Link>
     <li>Categories</li>
     <li>Products</li>
+    <Link href='/flashSale'>
     <li>Flash Sale</li>
+    </Link>
     <li>About Us</li>
     <li>Contact Us</li>
 
@@ -18,7 +22,7 @@ const navItem = (
 
 
   return (
-    <div className="navbar text-white bg-base-100  border-b  w-[90%] mx-auto">
+    <div className="navbar text-white bg-gray-500  border-b  px-32 mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
