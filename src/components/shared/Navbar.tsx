@@ -9,7 +9,9 @@ const navItem = (
     <li>Home</li>
     </Link>
     <li>Categories</li>
+    <Link href='/allProducts'>
     <li>Products</li>
+    </Link>
     <Link href='/flashSale'>
     <li>Flash Sale</li>
     </Link>

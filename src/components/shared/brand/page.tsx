@@ -14,42 +14,49 @@ const BrandPage = () => {
         </p>
       </div>
       <div className="grid grid-cols-12 gap-4">
-        <div className="row-span-2 col-span-4 w-full mx-auto">
+        <div className="row-span-2 col-span-4 w-full mx-auto relative">
           <Image
             width={800}
             height={800}
-            className="rounded-md  "
+            className="rounded-md h-[650px] "
             alt="Image Loading..."
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNfa0mCSlWCfcQl6WWqmZI-iIszO0d2ARTPrykxREKyw&s"
+            src="https://enfield-bd.com/wp-content/uploads/2022/06/Lightweight-Baby-Stroller-3-In-1-Baby-Travel-Stroller-Baby-Carriage-Bycycle-Baby-Pushchair-Carros-De-Baby-Baby-Stroller-.jpg"
           />
+          <h2 className="absolute bottom-10 left-52 text-xl text-white font-bold">Baby Traveling </h2>
         </div>
-        <div className="col-span-4 ">
+        <div className="col-span-4 relative ">
           <Image
-            width={100}
+            width={300}
             height={100}
-            className="rounded-md h-[250px] w-full "
+            className="rounded-md h-[315px] w-full "
             alt="Image Loading..."
-            src="https://sblglobal.com/admin/public/uploads/products/20230102072943_84.jpg"
+            src="https://www.verywellfamily.com/thmb/hrlNtWoTWsA2uWuK5k1ypZ696rU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/98842092-56aafc2f3df78cf772b4b929.jpg"
           />
+          <h2 className="absolute bottom-1 left-52 text-xl font-bold ">Baby Bathing </h2>
         </div>
-        <div className="row-span-2 col-span-4 w-full bg-red-400">
+        <div className="row-span-2 col-span-4 w-full  relative">
           <Image
             width={800}
             height={800}
-            className="rounded-md  w-full "
+            className="rounded-md "
             alt="Image Loading..."
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_6Bw8mmw_uahrdkN7nBmTzaBtpYAQUJDgQLkEVMRlTkK1dBH0GNquI4NElxLZTeL5-Tw&usqp=CAU"
+            src="https://m.media-amazon.com/images/I/71BGbX5hDtL._AC_SX569_.jpg"
           />
+          <h2 className="absolute bottom-10 left-52 text-xl  font-bold">Baby Cloth </h2>
         </div>
-        <div className="col-span-4  w-full">
+        <div className="col-span-4  w-full relative">
           <Image
-            width={100}
-            height={100}
-            className="rounded-md h-[250px] w-full "
+            width={200}
+            height={200}
+            className="rounded-md h-[315px] w-full "
             alt="Image Loading..."
-            src="https://sblglobal.com/admin/public/uploads/products/20230102072943_84.jpg"
+            src="https://www.babyprem.com/clear_cta/1562316489shutterstock_563353231-min.jpg"
           />
+          <h2 className="absolute bottom-10 left-52 text-xl font-bold ">Baby Diapering </h2>
         </div>
+      </div>
+      <div className=" my-12 text-center">
+        <button className="btn btn-neutral ">View All Categories</button>
       </div>
     </div>
   );
