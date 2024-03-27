@@ -1,13 +1,14 @@
 import BrandPage from "../components/shared/brand/page";
-import HomePage from "../components/shared/home/page";
-import PopularProductsPage from "../components/shared/popularProducts/page";
-import FlashSalePage from "./flashSale/page";
+import HomePage from "./home";
+import PopularProductsPage from "./populer";
+import FlashPage from "./flash";
+
 
 const Home = () => {
   return (
     <div>
       <HomePage/>
-      <FlashSalePage />
+      <FlashPage/>
       <BrandPage/>
       <PopularProductsPage/>
     </div>
