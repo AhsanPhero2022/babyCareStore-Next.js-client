@@ -1,120 +1,203 @@
+
 [
-    {
-      "name": "Baby Shoes",
-      "description": "Adorable and comfortable baby shoes for little feet. Made with soft materials to support natural foot development.",
-      "image": "baby-shoes-1.jpg",
-      "category": "Footwear",
-      "time_for_sorting": "2024-03-23T10:00:00",
-      "discount": "-20%",
-      "flash_sale": false
-    },
-    {
-      "name": "Organic Baby Milk",
-      "description": "Nutrient-rich organic baby milk formula for healthy growth and development. Made with natural ingredients.",
-      "image": "baby-milk-1.jpg",
-      "category": "Feeding",
-      "time_for_sorting": "2024-03-23T11:30:00",
-      "discount": "-15%",
-      "flash_sale": true
-    },
-    {
-      "name": "Baby Cereals",
-      "description": "Delicious and nutritious baby cereals packed with essential vitamins and minerals. Perfect for introducing solids.",
-      "image": "baby-cereals-1.jpg",
-      "category": "Feeding",
-      "time_for_sorting": "2024-03-23T12:45:00",
-      "discount": "-10%",
-      "flash_sale": false
-    },
-    {
-      "name": "Baby Snacks",
-      "description": "Healthy and tasty baby snacks made with natural ingredients. Ideal for on-the-go munching.",
-      "image": "baby-snacks-1.jpg",
-      "category": "Feeding",
-      "time_for_sorting": "2024-03-23T14:15:00",
-      "discount": "-18%",
-      "flash_sale": false
-    },
-    {
-      "name": "Baby Diapers",
-      "description": "Ultra-absorbent and comfortable baby diapers for day and night protection. Gentle on delicate skin.",
-      "image": "baby-diapers-1.jpg",
-      "category": "Diapering",
-      "time_for_sorting": "2024-03-23T15:30:00",
-      "discount": "-23%",
-      "flash_sale": false
-    },
-    {
-      "name": "Baby Wipes",
-      "description": "Soft and gentle baby wipes for quick and easy cleanup. Enriched with soothing ingredients for sensitive skin.",
-      "image": "baby-wipes-1.jpg",
-      "category": "Diapering",
-      "time_for_sorting": "2024-03-23T16:45:00",
-      "discount": "-12%",
-      "flash_sale": true
-    },
-    {
-      "name": "Baby Bath Tub",
-      "description": "Spacious and ergonomic baby bath tub for safe and enjoyable bathing. Features non-slip design for added security.",
-      "image": "baby-bath-tub-1.jpg",
-      "category": "Bathing",
-      "time_for_sorting": "2024-03-23T17:45:00",
-      "discount": "-15%",
-      "flash_sale": false
-    },
-    {
-      "name": "Baby Shampoo",
-      "description": "Gentle and tear-free baby shampoo to cleanse and nourish delicate hair and scalp. Hypoallergenic formula.",
-      "image": "baby-shampoo-1.jpg",
-      "category": "Bathing",
-      "time_for_sorting": "2024-03-23T18:45:00",
-      "discount": "-20%",
-      "flash_sale": false
-    },
-    {
-      "name": "Baby Onesies",
-      "description": "Cozy and adorable baby onesies made from soft and breathable fabric. Perfect for everyday wear and playtime.",
-      "image": "baby-onesies-1.jpg",
-      "category": "Clothing",
-      "time_for_sorting": "2024-03-23T19:45:00",
-      "discount": "-25%",
-      "flash_sale": false
-    },
-    {
-      "name": "Baby Swaddle Blankets",
-      "description": "Snug and secure baby swaddle blankets for a peaceful night's sleep. Made from premium quality materials.",
-      "image": "baby-swaddle-blankets-1.jpg",
-      "category": "Clothing",
-      "time_for_sorting": "2024-03-23T20:45:00",
-      "discount": "-10%",
-      "flash_sale": true
-    },
-    {
-      "name": "Baby Carrier",
-      "description": "Convenient and comfortable baby carrier for hands-free carrying. Adjustable straps for a custom fit.",
-      "image": "baby-carrier-1.jpg",
-      "category": "Travel",
-      "time_for_sorting": "2024-03-23T21:45:00",
-      "discount": "-18%",
-      "flash_sale": false
-    },
-    {
-      "name": "Baby Stroller",
-      "description": "Stylish and durable baby stroller for smooth and enjoyable outings. Features multiple recline positions and ample storage.",
-      "image": "baby-stroller-1.jpg",
-      "category": "Travel",
-      "time_for_sorting": "2024-03-23T22:45:00",
-      "discount": "-30%",
-      "flash_sale": false
-    },
-    {
-      "name": "Baby Car Seat",
-      "description": "Safe and secure baby car seat for stress-free travel. Adjustable harness and side-impact protection for added safety.",
-      "image": "baby-car-seat-1.jpg",
-      "category": "Travel",
-      "time_for_sorting": "2024-03-23T23:45:00",
-      "discount": "-15%",
-      "flash_sale": true
-    }
-  ]
-  
+  {
+    "name": "Baby Shoe",
+    "description": "Adorable and comfortable shoes for little feet. Made with soft materials to support natural foot development.",
+    "image": "baby-shoe.jpg",
+    "category": "Footwear",
+    "time_for_sorting": "2024-03-23T10:00:00",
+    "discount": "-23%",
+    "flash_sale": true,
+    "ratings": 4.5
+  },
+  {
+    "name": "Baby Food",
+    "description": "Nutritious and delicious food options for your little one's healthy development. Made with natural ingredients.",
+    "image": "baby-food.jpg",
+    "category": "Food",
+    "time_for_sorting": "2024-03-23T11:30:00",
+    "discount": "-15%",
+    "flash_sale": false,
+    "ratings": 4.8
+  },
+  {
+    "name": "Baby Dress",
+    "description": "Soft and cozy Dressing essentials for your baby's comfort. Designed with care for everyday wear.",
+    "image": "baby-Dress.jpg",
+    "category": "Dressing",
+    "time_for_sorting": "2024-03-23T12:45:00",
+    "discount": "-10%",
+    "flash_sale": false,
+    "ratings": 4.2
+  },
+  {
+    "name": "Baby Traveling",
+    "description": "Convenient and durable travel gear for stress-free outings with your baby. Designed for on-the-go parents.",
+    "image": "baby-travel.jpg",
+    "category": "Travel",
+    "time_for_sorting": "2024-03-23T14:15:00",
+    "discount": "-18%",
+    "flash_sale": true,
+    "ratings": 4.6
+  },
+  {
+    "name": "Baby Diaper",
+    "description": "High-quality diapers for superior comfort and protection. Keeps your baby dry and happy all day long.",
+    "image": "baby-diaper.jpg",
+    "category": "Diapering",
+    "time_for_sorting": "2024-03-23T15:30:00",
+    "discount": "-25%",
+    "flash_sale": false,
+    "ratings": 4.4
+  },
+  {
+    "name": "Baby Car",
+    "description": "Safe and reliable baby car seats for secure travel. Provides comfort and protection on the road.",
+    "image": "baby-car.jpg",
+    "category": "Travel",
+    "time_for_sorting": "2024-03-23T16:45:00",
+    "discount": "-20%",
+    "flash_sale": true,
+    "ratings": 4.7
+  },
+  {
+    "name": "Baby Shoe",
+    "description": "BPA-free baby bottles designed for easy Food and comfortable holding. Ensures safe and hygienic Food.",
+    "image": "baby-bottle.jpg",
+    "category": "Shoe",
+    "time_for_sorting": "2024-03-23T18:00:00",
+    "discount": "-12%",
+    "flash_sale": false,
+    "ratings": 4.3
+  },
+  {
+    "name": "Baby Food",
+    "description": "Soft and cozy baby blankets to keep your little one warm and snug. Perfect for cuddling and nap time.",
+    "image": "baby-blanket.jpg",
+    "category": "Food",
+    "time_for_sorting": "2024-03-23T19:15:00",
+    "discount": "-15%",
+    "flash_sale": true,
+    "ratings": 4.6
+  },
+  {
+    "name": "Baby Lotion",
+    "description": "Gentle and moisturizing baby lotion to keep your baby's skin soft and hydrated. Dermatologist-tested formula.",
+    "image": "baby-lotion.jpg",
+    "category": "Skincare",
+    "time_for_sorting": "2024-03-23T20:30:00",
+    "discount": "-10%",
+    "flash_sale": false,
+    "ratings": 4.4
+  },
+  {
+    "name": "Baby Lotion",
+    "description": "Advanced baby Lotions with video and audio capabilities for round-the-clock Lotioning. Provides peace of mind.",
+    "image": "baby-Lotion.jpg",
+    "category": "Lotion",
+    "time_for_sorting": "2024-03-23T21:45:00",
+    "discount": "-20%",
+    "flash_sale": true,
+    "ratings": 4.7
+  },
+  {
+    "name": "Baby Stroller",
+    "description": "Stylish and durable baby stroller for smooth and enjoyable outings. Features multiple recline positions and ample storage.",
+    "image": "baby-stroller.jpg",
+    "category": "Baby Traveling",
+    "time_for_sorting": "2024-03-23T22:00:00",
+    "discount": "-18%",
+    "flash_sale": false,
+    "ratings": 4.5
+  },
+  {
+    "name": "Organic Baby Food",
+    "description": "Nutrient-rich organic baby food for healthy growth and development. Made with natural ingredients.",
+    "image": "organic-baby-food.jpg",
+    "category": "Baby Food",
+    "time_for_sorting": "2024-03-23T23:15:00",
+    "discount": "-12%",
+    "flash_sale": true,
+    "ratings": 4.3
+  },
+  {
+    "name": "Baby Dress",
+    "description": "Cozy and adorable baby onesies made from soft and breathable fabric. Perfect for everyday wear and playtime.",
+    "image": "baby-onesies.jpg",
+    "category": "Baby Dress",
+    "time_for_sorting": "2024-03-24T00:30:00",
+    "discount": "-15%",
+    "flash_sale": false,
+    "ratings": 4.6
+  },
+  {
+    "name": "Baby Car Toy",
+    "description": "Safe and secure baby car seat for stress-free travel. Adjustable harness and side-impact protection for added safety.",
+    "image": "baby-car-seat.jpg",
+    "category": "Baby Car",
+    "time_for_sorting": "2024-03-24T01:45:00",
+    "discount": "-10%",
+    "flash_sale": true,
+    "ratings": 4.4
+  },
+  {
+    "name": "Ultra-Absorbent Baby Diapers",
+    "description": "Ultra-absorbent and comfortable baby diapers for day and night protection. Gentle on delicate skin.",
+    "image": "baby-diapers.jpg",
+    "category": "Baby Diaper",
+    "time_for_sorting": "2024-03-24T02:45:00",
+    "discount": "-20%",
+    "flash_sale": false,
+    "ratings": 4.7
+  },
+  {
+    "name": "Baby Lotion",
+    "description": "Gentle and moisturizing baby lotion for soft and smooth skin. Hypoallergenic and fragrance-free formula.",
+    "image": "baby-lotion.jpg",
+    "category": "Baby Lotion",
+    "time_for_sorting": "2024-03-24T03:45:00",
+    "discount": "-25%",
+    "flash_sale": true,
+    "ratings": 4.8
+  },
+  {
+    "name": "Baby Shoes",
+    "description": "Adorable and comfortable baby shoes for little feet. Made with soft materials to support natural foot development.",
+    "image": "baby-shoes.jpg",
+    "category": "Baby Shoe",
+    "time_for_sorting": "2024-03-24T04:45:00",
+    "discount": "-18%",
+    "flash_sale": false,
+    "ratings": 4.5
+  },
+  {
+    "name": "Baby Travel Bag",
+    "description": "Spacious and versatile baby travel bags for carrying all essentials. Designed for convenience and organization.",
+    "image": "baby-travel-bag.jpg",
+    "category": "Baby Traveling",
+    "time_for_sorting": "2024-03-24T05:45:00",
+    "discount": "-12%",
+    "flash_sale": true,
+    "ratings": 4.3
+  },
+  {
+    "name": "Baby Diaper",
+    "description": "Soft and gentle baby wipes for quick and easy cleanup. Enriched with soothing ingredients for sensitive skin.",
+    "image": "baby-wipes.jpg",
+    "category": "Baby Diaper",
+    "time_for_sorting": "2024-03-24T06:45:00",
+    "discount": "-15%",
+    "flash_sale": false,
+    "ratings": 4.6
+  },
+  {
+    "name": "Baby Carriage",
+    "description": "Classic and elegant baby carriage for comfortable and stylish strolling. Sturdy construction and smooth maneuverability.",
+    "image": "baby-carriage.jpg",
+    "category": "Baby Car",
+    "time_for_sorting": "2024-03-24T07:45:00",
+    "discount": "-20%",
+    "flash_sale": true,
+    "ratings": 4.7
+  }
+]

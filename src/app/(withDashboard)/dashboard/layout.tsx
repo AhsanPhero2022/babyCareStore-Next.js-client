@@ -17,6 +17,7 @@ export default function DashboardLayout({
         <div className="w-[20%]">
           <Sidebar />
         </div>
+
         <div className="w-[80%] bg-base-200 rounded-box ml-2">{children}</div>
       </div>
     </div>
