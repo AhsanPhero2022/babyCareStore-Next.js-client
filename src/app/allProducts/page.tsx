@@ -1,8 +1,8 @@
-import CountDownPage from "@/components/countDown/page";
-import CategoryBrand from "@/components/shared/categoryBrand/page";
-import PriceFilter from "@/components/shared/priceFilter/page";
-import ProductsCollection from "@/components/shared/productsCollection/page";
-import RatingsPage from "@/components/shared/ratings/page";
+import CategoryBrand from "../../components/shared/categoryBrand/page";
+import PriceFilter from "../../components/shared/priceFilter/page";
+import RatingsPage from "../../components/shared/ratings/page";
+import ProductsCollection from "./productsCollection/page";
+
 
 
 const AllProductsPage = () => {

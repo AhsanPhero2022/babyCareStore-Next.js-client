@@ -1,4 +1,4 @@
-import { SrvRecord } from "dns";
+
 
 export type TProduct = {
   _id: string;
@@ -10,7 +10,7 @@ export type TProduct = {
   quantity: number;
   status: string;
   time_for_sorting: string;
-  flash_sale: boolean;
+  flash: boolean;
   discount: string;
 };
 

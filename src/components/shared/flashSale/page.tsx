@@ -1,6 +1,8 @@
-import { TProduct } from "@/components/type/type";
+
 import Image from "next/image";
 import Link from "next/link";
+import { TProduct } from "../../type/type";
+import CountDownPage from "../../countDown/page";
 
 
 const FlashSalePage = async () => {
@@ -23,9 +25,13 @@ data.sort((a:TProduct, b:TProduct)  => {
           <h1>Flash Sale</h1>
         
         </div>
+        <div className="">
+          <p className="text-sm text-red-500">Offer end in: </p>
+        <CountDownPage/>
+        </div>
         <div>
          <Link href='/flashSale'>
-         <button className="btn bg-gray-700 text-white">
+         <button className="btn btn-neutral text-white">
           View all
           </button>
          </Link>

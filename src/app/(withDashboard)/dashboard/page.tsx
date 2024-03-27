@@ -1,5 +1,6 @@
-import { TProduct } from "@/components/type/type";
+
 import Image from "next/image";
+import { TProduct } from "../../../components/type/type";
 
 const DashboardPage = async () => {
   const products = await fetch("https://baby-care-store-server.vercel.app/products");

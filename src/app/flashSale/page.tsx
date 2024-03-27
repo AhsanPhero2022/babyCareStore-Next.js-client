@@ -1,5 +1,6 @@
-import { TProduct } from "@/components/type/type";
+
 import Image from "next/image";
+import { TProduct } from "../../components/type/type";
 
 
 

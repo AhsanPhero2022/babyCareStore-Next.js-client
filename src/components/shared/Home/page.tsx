@@ -23,7 +23,7 @@ const HomePage = () => {
         You can buy baby care product here, please explore first there are many
         categories products.
       </h1>
-      <p className="text-center text-gray-500 my-5 w-[80%] mx-auto">
+      <p className="text-center text-gray-300 my-5 w-[80%] mx-auto">
         At our online store, you will find everything you need to care for your
         baby from infancy through toddlerhood and beyond. From essential items
         like diapers, formula, and baby wipes to specialized products such as
@@ -59,10 +59,10 @@ const HomePage = () => {
               height={500}
               className="rounded-md h-[330px] "
               alt="Image Loading..."
-              src="https://sblglobal.com/admin/public/uploads/products/20230102072943_84.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThl-Qyft7rpb815-qFHVqY5D0f0y12TKav9w&usqp=CAU"
             />
             <div>
-              <h3 className="text-white my-3">Daily care shampoo </h3>
+              <h3 className="text-white my-3">Organic Baby Food</h3>
               <div className="flex justify-between items-center ">
               <p className="text-white text-sm">
               
@@ -78,10 +78,10 @@ const HomePage = () => {
               height={500}
               className="rounded-md h-[330px] "
               alt="Image Loading..."
-              src="https://sblglobal.com/admin/public/uploads/products/20230102072943_84.jpg"
+              src="https://www.zymak.com.bd/wp-content/uploads/2019/08/Audi-R8-Electric-Ride-On-Baby-Car-Now-In-Bangladesh.jpg"
             />
             <div>
-              <h3 className="text-white my-3">Daily care shampoo </h3>
+              <h3 className="text-white my-3">Baby toy</h3>
               <div className="flex justify-between items-center ">
               <p className="text-white text-sm">
               
@@ -116,7 +116,7 @@ const HomePage = () => {
               height={500}
               className="rounded-md h-[330px] "
               alt="Image Loading..."
-              src="https://sblglobal.com/admin/public/uploads/products/20230102072943_84.jpg"
+              src="https://www.zymak.com.bd/wp-content/uploads/2019/08/Audi-R8-Electric-Ride-On-Baby-Car-Now-In-Bangladesh.jpg"
             />
             <div>
               <h3 className="text-white my-3">Daily care shampoo </h3>

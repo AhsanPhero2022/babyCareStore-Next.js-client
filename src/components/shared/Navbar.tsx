@@ -15,7 +15,9 @@ const navItem = (
     <Link href='/flashSale'>
     <li>Flash Sale</li>
     </Link>
-    <li>About Us</li>
+   <Link href='/aboutUs'>
+   <li>About Us</li>
+   </Link>
     <li>Contact Us</li>
 
     </>
