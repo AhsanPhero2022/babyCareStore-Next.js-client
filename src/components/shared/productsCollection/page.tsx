@@ -18,6 +18,7 @@ const ProductsCollection = async () => {
           >
             <figure>
               <Image
+              className="w-full h-[250px]"
                 width={300}
                 height={300}
                 src={item.image}
