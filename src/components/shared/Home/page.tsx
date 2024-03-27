@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
-const Homepage = () => {
+const HomePage = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -175,4 +175,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default HomePage;
