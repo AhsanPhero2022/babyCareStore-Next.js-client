@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const FlashSalePage = async () => {
 
-const products = await fetch("http://localhost:5000/products", {
+const products = await fetch("https://baby-care-store-server.vercel.app/products", {
   next: {
     revalidate: 30,
   }
@@ -42,6 +42,7 @@ data.sort((a:TProduct, b:TProduct)  => {
                 height={400}
                 src={product.image}
                 alt="Product"
+                className="w-full h-[250px]"
               />
             </figure>
             <div className="card-body">

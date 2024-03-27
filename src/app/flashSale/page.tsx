@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const FlashSalePage = async() => {
 
-    const products = await fetch("http://localhost:5000/products", {
+    const products = await fetch("https://baby-care-store-server.vercel.app/products", {
        cache: 'no-cache'
       });
       const data = await products.json();
@@ -20,11 +20,12 @@ const FlashSalePage = async() => {
         {
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
         {data?.map((product:TProduct) => (
-          <div className="card relative w-96 bg-base-100 shadow-xl" key={product._id}>
+          <div className="card relative w-auto bg-base-100 shadow-xl" key={product._id}>
             <figure>
               <Image
                 width={400}
                 height={400}
+                className="w-full h-[250px]"
                 src={product.image}
                 alt="Product"
               />

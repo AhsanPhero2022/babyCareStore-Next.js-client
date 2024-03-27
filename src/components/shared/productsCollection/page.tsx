@@ -4,7 +4,7 @@ import { it } from "node:test";
 import React from "react";
 
 const ProductsCollection = async () => {
-  const products = await fetch("http://localhost:5000/products", {
+  const products = await fetch("https://baby-care-store-server.vercel.app/products", {
     cache: "no-cache",
   });
   const data = await products.json();

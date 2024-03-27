@@ -1,7 +1,8 @@
+import { TProduct } from "@/components/type/type";
 import Image from "next/image";
 
 const DashboardPage = async () => {
-  const products = await fetch("http://localhost:5000/products");
+  const products = await fetch("https://baby-care-store-server.vercel.app/products");
   const data = await products.json();
   return (
     <div>
@@ -21,7 +22,7 @@ const DashboardPage = async () => {
           <tbody>
             {/* row 1 */}
             {
-              data?.map((item)=>(
+              data?.map((item: TProduct)=>(
                 <tr key={item._id}>
               <th>
                 <label>
