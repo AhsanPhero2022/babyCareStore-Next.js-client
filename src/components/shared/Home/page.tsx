@@ -31,7 +31,7 @@ const HomePage = () => {
         covered. Our range includes trusted brands known for their commitment to
         quality and safety, ensuring peace of mind for you and your family.
       </p>
-      {/* carousel start */}
+    
       <div className="slider-container w-2/3 mx-auto">
         <Slider {...settings}>
           <div className="px-4">
@@ -170,7 +170,7 @@ const HomePage = () => {
       
         </Slider>
       </div>
-      {/* carousel end */}
+    
     </div>
   );
 };

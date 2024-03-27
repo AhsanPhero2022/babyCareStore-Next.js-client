@@ -7,8 +7,6 @@ import RatingsPage from "@/components/shared/ratings/page";
 
 const AllProductsPage = () => {
 
-  
-
   return (
     <div className="my-12">
       <div className="grid grid-cols-12  ">

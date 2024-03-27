@@ -1,5 +1,6 @@
 import { TProduct } from "@/components/type/type";
 import Image from "next/image";
+import Link from "next/link";
 import { it } from "node:test";
 import React from "react";
 
@@ -29,7 +30,9 @@ const ProductsCollection = async () => {
               <h2 className="card-title">{item.name}</h2>
               <p>{item.description}</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-neutral">See Details</button>
+              <Link href={`/allProducts/${item._id}`}>
+              <button className="btn btn-neutral">See Details</button>
+              </Link>
               </div>
             </div>
           </div>
