@@ -18,7 +18,7 @@ const AllProductsPage = () => {
         <div className="col-span-9 ">
         <h2 className="text-4xl font-bold">Our Collection Of Products</h2>
         <div>
-          <ProductsCollection/>
+          <ProductsCollection />
         </div>
         </div>
       </div>

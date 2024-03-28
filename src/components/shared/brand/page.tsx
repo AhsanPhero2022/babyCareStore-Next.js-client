@@ -23,7 +23,7 @@ const BrandPage = () => {
             alt="Image Loading..."
             src="https://enfield-bd.com/wp-content/uploads/2022/06/Lightweight-Baby-Stroller-3-In-1-Baby-Travel-Stroller-Baby-Carriage-Bycycle-Baby-Pushchair-Carros-De-Baby-Baby-Stroller-.jpg"
           />
-          <h2 className="absolute bottom-10 left-5  text-xl text-white font-bold">Baby Traveling </h2>
+          <h2 className="absolute bottom-10 left-5  text-xl  font-bold">Baby Traveling </h2>
         </div>
         <div className="col-span-4 relative ">
           <Image
@@ -33,7 +33,7 @@ const BrandPage = () => {
             alt="Image Loading..."
             src="https://www.verywellfamily.com/thmb/hrlNtWoTWsA2uWuK5k1ypZ696rU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/98842092-56aafc2f3df78cf772b4b929.jpg"
           />
-          <h2 className="absolute bottom-1 left-5 text-xl font-bold ">Baby Bathing </h2>
+          <h2 className="absolute bottom-10 left-5 text-xl font-bold ">Baby Bathing </h2>
         </div>
         <div className="row-span-2 col-span-4 w-full  relative">
           <Image

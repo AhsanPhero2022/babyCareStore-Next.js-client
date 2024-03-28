@@ -1,6 +1,5 @@
 {
-  "/categorySorted/page": "app/categorySorted/page.js",
   "/page": "app/page.js",
-  "/contactUs/page": "app/contactUs/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/allProducts/page": "app/allProducts/page.js",
+  "/allProducts/[singleProduct]/page": "app/allProducts/[singleProduct]/page.js"
 }

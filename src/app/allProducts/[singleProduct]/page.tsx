@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { TProduct } from "../../../components/type/type";
 type Tid = {
-    params: {
+    params?: {
       singleProduct: string;
     };
   };
@@ -10,7 +10,7 @@ type Tid = {
 
 
 const SingleProductPage = async ({ params }: Tid) => {
-  const id = params.singleProduct;
+  const id = params?.singleProduct;
   const products = await fetch(
     "https://baby-care-store-server.vercel.app/products",
     {
@@ -22,7 +22,7 @@ const SingleProductPage = async ({ params }: Tid) => {
   const product = data.find((product: TProduct) => product._id === id);
 
   if (!product) {
-    return alert({ message: "Product not found" });
+    return console.log(({ message: "Product not found" }));
   }
 
   return (

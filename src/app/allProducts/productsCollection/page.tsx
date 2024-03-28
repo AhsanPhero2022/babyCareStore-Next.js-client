@@ -1,19 +1,18 @@
-
-
-
-
 import Image from "next/image";
 import Link from "next/link";
 import { TProduct } from "../../../components/type/type";
 
 
-const ProductsCollection = async () => {
-  
-  const products = await fetch("https://baby-care-store-server.vercel.app/products", {
-    cache: "no-cache",
-  });
-  const data = await products.json();
 
+
+const ProductsCollection = async () => {
+  const products = await fetch(
+    "https://baby-care-store-server.vercel.app/products",
+    {
+      cache: "no-cache",
+    }
+  );
+  const data = await products.json();
 
 
 
@@ -28,7 +27,7 @@ const ProductsCollection = async () => {
           >
             <figure>
               <Image
-              className="w-full h-[250px]"
+                className="w-full h-[250px]"
                 width={300}
                 height={300}
                 src={item.image}
@@ -38,21 +37,19 @@ const ProductsCollection = async () => {
             <div className="card-body">
               <h2 className="card-title">{item.name}</h2>
               <p>{item.description}</p>
-             
+
               <div className="card-actions  item-center justify-between">
-              <p>Flash Sale: {item.flash}</p>
-              <Link href={`/allProducts/${item._id}`}>
-              <button className="btn btn-neutral">See Details</button>
-              </Link>
+                <p>Flash Sale: {item.flash}</p>
+                <Link href={`/allProducts/${item._id}`}>
+                  <button className="btn btn-neutral">See Details</button>
+                </Link>
               </div>
             </div>
           </div>
         ))}
       </div>
       <div className="my-12  text-center">
-      <button className="btn">
-        Load More
-      </button>
+        <button className="btn">Load More</button>
       </div>
     </div>
   );
