@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { TProduct } from "../../../components/type/type";
+import { it } from "node:test";
 
 
 
@@ -38,8 +39,8 @@ const ProductsCollection = async () => {
               <h2 className="card-title">{item.name}</h2>
               <p>{item.description}</p>
 
-              <div className="card-actions  item-center justify-between">
-                <p>Flash Sale: {item.flash}</p>
+              <div className="card-actions align-middle  item-center justify-between">
+                <p className=" font-semibold">Price: {item.price}</p>
                 <Link href={`/allProducts/${item._id}`}>
                   <button className="btn btn-neutral">See Details</button>
                 </Link>
