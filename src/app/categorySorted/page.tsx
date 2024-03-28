@@ -9,7 +9,7 @@ const CategoryData = async () => {
 
   return (
     <div>
-      <h2>this is category page</h2>
+      <h2 className="text-3xl font-bold my-12 text-center">Category Sorted Data</h2>
       {
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
           {products?.map((product: TProduct) => (

@@ -1,31 +1,28 @@
 import Link from "next/link";
 
 const Navbar = () => {
-
-const navItem = (
-
-<>
-    <Link href='/'>
-    <li>Home</li>
-    </Link>
-    <Link href='/categorySorted'>
-    <li>Categories</li>
-    </Link>
-    <Link href='/allProducts'>
-    <li>Products</li>
-    </Link>
-    <Link href='/flashSale'>
-    <li>Flash Sale</li>
-    </Link>
-   <Link href='/aboutUs'>
-   <li>About Us</li>
-   </Link>
-    <li>Contact Us</li>
-
+  const navItem = (
+    <>
+      <Link href="/">
+        <li>Home</li>
+      </Link>
+      <Link href="/categorySorted">
+        <li>Categories</li>
+      </Link>
+      <Link href="/allProducts">
+        <li>Products</li>
+      </Link>
+      <Link href="/flashSale">
+        <li>Flash Sale</li>
+      </Link>
+      <Link href="/aboutUs">
+        <li>About Us</li>
+      </Link>
+      <Link href="/contactUs">
+        <li>Contact Us</li>
+      </Link>
     </>
-)
-
-
+  );
 
   return (
     <div className="navbar text-white bg-gray-500  border-b  px-32 mx-auto">
@@ -55,20 +52,15 @@ const navItem = (
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
-          Baby <span className="text-violet-800">
-          Care
-            </span> Store
+          Baby <span className="text-violet-800">Care</span> Store
         </Link>
       </div>
       <div className="navbar-center hidden  lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-4">
-       {navItem}
-        </ul>
+        <ul className="menu menu-horizontal px-1 gap-4">{navItem}</ul>
       </div>
       <div className="navbar-end">
         <a href="/dashboard">Dashboard</a>
       </div>
-     
     </div>
   );
 };

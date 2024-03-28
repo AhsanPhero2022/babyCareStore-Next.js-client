@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const BrandPage = () => {
   return (
@@ -42,7 +43,7 @@ const BrandPage = () => {
             alt="Image Loading..."
             src="https://m.media-amazon.com/images/I/71BGbX5hDtL._AC_SX569_.jpg"
           />
-          <h2 className="absolute bottom-10 left-5 text-xl  font-bold">Baby Cloth </h2>
+          <h2 className="absolute bottom-10 left-5 text-xl  font-bold">Baby Dress </h2>
         </div>
         <div className="col-span-4  w-full relative">
           <Image
@@ -56,7 +57,9 @@ const BrandPage = () => {
         </div>
       </div>
       <div className=" my-12 text-center">
+        <Link href='/categorySorted'>
         <button className="btn btn-neutral ">View All Categories</button>
+        </Link>
       </div>
     </div>
   );
