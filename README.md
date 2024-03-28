@@ -13,18 +13,19 @@ To run this project locally, follow these simple steps:
 1. Clone the repository to your local machine:
 
    ```
-   bash
+ 
    git clone https://github.com/AhsanPhero2022/babyCareStore-Next.js-client.git
 
    ```
-cd baby-care-store
+2. cd baby-care-store
 
-npm install
+3. npm install
 
-npm run dev
+4. npm run dev
 
-##Features
-```Browse a wide range of baby care products.
+## Features
+```
+Browse a wide range of baby care products.
 Sort products by category.
 View detailed product information including name, description, price, and availability.
 Add products to the shopping cart.
