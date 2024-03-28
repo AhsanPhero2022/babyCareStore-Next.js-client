@@ -27,30 +27,10 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/flashSale/page": [
+    "/categorySorted/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/flashSale/page.js"
-    ],
-    "/(withDashboard)/dashboard/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(withDashboard)/dashboard/page.js"
-    ],
-    "/(withDashboard)/dashboard/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(withDashboard)/dashboard/layout.js"
-    ],
-    "/allProducts/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/allProducts/page.js"
-    ],
-    "/allProducts/[singleProduct]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/allProducts/[singleProduct]/page.js"
+      "static/chunks/app/categorySorted/page.js"
     ]
   }
 }

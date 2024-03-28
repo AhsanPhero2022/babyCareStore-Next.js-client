@@ -1,8 +1,5 @@
 {
   "/page": "app/page.js",
-  "/flashSale/page": "app/flashSale/page.js",
-  "/not-found": "app/not-found.js",
-  "/allProducts/page": "app/allProducts/page.js",
-  "/allProducts/[singleProduct]/page": "app/allProducts/[singleProduct]/page.js",
-  "/(withDashboard)/dashboard/page": "app/(withDashboard)/dashboard/page.js"
+  "/categorySorted/page": "app/categorySorted/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

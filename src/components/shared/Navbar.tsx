@@ -8,7 +8,9 @@ const navItem = (
     <Link href='/'>
     <li>Home</li>
     </Link>
+    <Link href='/categorySorted'>
     <li>Categories</li>
+    </Link>
     <Link href='/allProducts'>
     <li>Products</li>
     </Link>
@@ -53,7 +55,7 @@ const navItem = (
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
-          Baby <span className="text-violet-500">
+          Baby <span className="text-violet-800">
           Care
             </span> Store
         </Link>

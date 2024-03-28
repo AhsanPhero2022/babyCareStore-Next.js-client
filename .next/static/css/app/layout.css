@@ -2379,6 +2379,9 @@ html{
 .top-5{
   top: 1.25rem;
 }
+.right-5{
+  right: 1.25rem;
+}
 .z-\[1\]{
   z-index: 1;
 }
@@ -2720,6 +2723,10 @@ html{
 .text-violet-500{
   --tw-text-opacity: 1;
   color: rgb(139 92 246 / var(--tw-text-opacity));
+}
+.text-violet-800{
+  --tw-text-opacity: 1;
+  color: rgb(91 33 182 / var(--tw-text-opacity));
 }
 .text-white{
   --tw-text-opacity: 1;
