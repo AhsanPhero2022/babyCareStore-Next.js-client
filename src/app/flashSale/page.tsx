@@ -7,7 +7,9 @@ import { TProduct } from "../../components/type/type";
 const FlashSalePage = async() => {
 
     const products = await fetch("https://baby-care-store-server.vercel.app/products", {
-       cache: 'no-cache'
+       next: {
+        revalidate: 30
+       }
       });
       const data = await products.json();
 

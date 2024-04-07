@@ -26,21 +26,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
-    ],
-    "/categorySorted/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/categorySorted/page.js"
-    ],
-    "/allProducts/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/allProducts/page.js"
-    ],
-    "/allProducts/[singleProduct]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/allProducts/[singleProduct]/page.js"
     ]
   }
 }
