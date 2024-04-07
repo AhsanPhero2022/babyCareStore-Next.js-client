@@ -8,7 +8,7 @@ const FlashSalePage = async() => {
 
     const products = await fetch("https://baby-care-store-server.vercel.app/products", {
        next: {
-        revalidate: 30
+        revalidate: 30,
        }
       });
       const data = await products.json();

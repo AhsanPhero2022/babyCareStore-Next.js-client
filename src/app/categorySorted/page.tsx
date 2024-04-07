@@ -3,7 +3,7 @@ import { TProduct } from "../../components/type/type";
 
 const CategoryData = async () => {
   const data = await fetch("https://baby-care-store-server.vercel.app/category", {
-    cache: "no-cache",
+    cache: "no-store",
   });
   const products = await data.json();
 

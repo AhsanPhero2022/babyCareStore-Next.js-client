@@ -61,6 +61,7 @@ const Navbar = () => {
       <div className="navbar-end">
         <a href="/dashboard">Dashboard</a>
       </div>
+      
     </div>
   );
 };

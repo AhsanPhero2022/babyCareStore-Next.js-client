@@ -16,7 +16,7 @@ const HomePage = () => {
 
   return (
     <div className="bg-[#fef2ff] py-32 -mt-20">
-      <h1 className="text-4xl text-center mt-10 text-violet-500">
+      <h1 className="text-4xl text-center mt-10 text-[#8632c3]">
         Welcome To Baby Care Store.
       </h1>
       <h1 className=" text-4xl mx-auto mt-5 w-2/3 text-center">
@@ -47,7 +47,7 @@ const HomePage = () => {
               <div className="flex justify-between items-center ">
               <p className="  text-sm">
               
-              <span className="text-gray-300 me-5 ">$770 </span> $500
+              <span className="text-gray-500 me-5 ">$770 </span> $500
             </p>
             <p className="text-sm text-red-500">Discount: -23%</p>
               </div>
@@ -66,7 +66,7 @@ const HomePage = () => {
               <div className="flex justify-between items-center ">
               <p className="  text-sm">
               
-              <span className="text-gray-300 me-5 ">$630 </span> $500
+              <span className="text-gray-500 me-5 ">$630 </span> $500
             </p>
             <p className="text-sm text-red-500">Discount: -18%</p>
               </div>
@@ -85,7 +85,7 @@ const HomePage = () => {
               <div className="flex justify-between items-center ">
               <p className="  text-sm">
               
-              <span className="text-gray-300 me-5 ">$625 </span> $500
+              <span className="text-gray-500 me-5 ">$625 </span> $500
             </p>
             <p className="text-sm text-red-500">Discount: -15%</p>
               </div>
@@ -104,7 +104,7 @@ const HomePage = () => {
               <div className="flex justify-between items-center ">
               <p className="  text-sm">
               
-              <span className="text-gray-300 me-5 ">$750 </span> $500
+              <span className="text-gray-500 me-5 ">$750 </span> $500
             </p>
             <p className="text-sm text-red-500">Discount: -32%</p>
               </div>
@@ -123,7 +123,7 @@ const HomePage = () => {
               <div className="flex justify-between items-center ">
               <p className="  text-sm">
               
-              <span className="text-gray-300 me-5 ">$670 </span> $500
+              <span className="text-gray-500 me-5 ">$670 </span> $500
             </p>
             <p className="text-sm text-red-500">Discount: -13%</p>
               </div>
@@ -142,7 +142,7 @@ const HomePage = () => {
               <div className="flex justify-between items-center ">
               <p className="  text-sm">
               
-              <span className="text-gray-300 me-5 ">$670 </span> $500
+              <span className="text-gray-500 me-5 ">$670 </span> $500
             </p>
             <p className="text-sm text-red-500">Discount: -17%</p>
               </div>
@@ -161,7 +161,7 @@ const HomePage = () => {
               <div className="flex justify-between items-center ">
               <p className="  text-sm">
               
-              <span className="text-gray-300 me-5 ">$670 </span> $500
+              <span className="text-gray-500 me-5 ">$670 </span> $500
             </p>
             <p className="text-sm text-red-500">Discount: -33%</p>
               </div>

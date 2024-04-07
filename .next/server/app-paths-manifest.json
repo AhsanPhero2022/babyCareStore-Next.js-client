@@ -1,4 +1,13 @@
 {
+  "/_not-found": "app/_not-found.js",
+  "/aboutUs/page": "app/aboutUs/page.js",
+  "/allProducts/[singleProduct]/page": "app/allProducts/[singleProduct]/page.js",
+  "/allProducts/page": "app/allProducts/page.js",
+  "/allProducts/productsCollection/page": "app/allProducts/productsCollection/page.js",
+  "/categorySorted/page": "app/categorySorted/page.js",
+  "/contactUs/page": "app/contactUs/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/flashSale/page": "app/flashSale/page.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/(withDashboard)/dashboard/page": "app/(withDashboard)/dashboard/page.js"
 }
