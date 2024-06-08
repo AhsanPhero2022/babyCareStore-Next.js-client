@@ -51,17 +51,19 @@ const Navbar = () => {
             {navItem}
           </ul>
         </div>
-        <Link href="/" className="btn btn-ghost text-xl">
+        <Link href="/" className="btn  btn-ghost text-xl">
           Baby <span className="text-violet-800">Care</span> Store
         </Link>
       </div>
       <div className="navbar-center hidden  lg:flex">
         <ul className="menu menu-horizontal px-1 gap-4">{navItem}</ul>
       </div>
-      <div className="navbar-end">
+
+      <div className="navbar-end gap-4">
         <a href="/dashboard">Dashboard</a>
+        <a href="/dashboard">Login</a>
+        <a href="/dashboard">Logout</a>
       </div>
-      
     </div>
   );
 };

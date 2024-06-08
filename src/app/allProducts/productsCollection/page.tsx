@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { TProduct } from "../../../components/type/type";
-import { it } from "node:test";
 
 
 
