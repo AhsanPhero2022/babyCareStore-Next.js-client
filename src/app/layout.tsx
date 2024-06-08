@@ -20,8 +20,8 @@ export default async function RootLayout({
       <body>
         <Navbar />
         <div className="min-h-screen w-[100%] mx-auto">
-          {children}
           <Toaster />
+          {children}
         </div>
         <Footer />
       </body>
