@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { SubmitHandler, useForm } from "react-hook-form";
+import { toast } from "sonner";
 
 type Inputs = {
   email: string;
@@ -21,11 +22,15 @@ const LoginPage = () => {
       });
 
       if (!response.ok) {
-        throw new Error("Network response was not ok");
+        toast.message("Network response was not ok");
       }
 
       const result = await response.json();
-      console.log("Success:", result);
+
+      if (result.success == true) {
+        toast.message("Login Successful");
+        window.location.href = "/";
+      }
     } catch (error) {
       console.error("Error:", error);
     }

@@ -1,6 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { removeUser } from "../../utils/auth.services";
 
 const Navbar = () => {
+  const handleLogOut = () => {
+    removeUser();
+  };
   const navItem = (
     <>
       <Link href="/">
@@ -61,8 +67,8 @@ const Navbar = () => {
 
       <div className="navbar-end gap-4">
         <a href="/dashboard">Dashboard</a>
-        <a href="/dashboard">Login</a>
-        <a href="/dashboard">Logout</a>
+        <a href="/login">Login</a>
+        <button onClick={handleLogOut}>Logout</button>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { SubmitHandler, useForm } from "react-hook-form";
+import { toast } from "sonner";
 
 type Inputs = {
   name: string;
@@ -26,7 +27,10 @@ const RegisterPage = () => {
       }
 
       const result = await response.json();
-      console.log("Success:", result);
+      if (result.success == true) {
+        toast.message("Login Successful");
+        window.location.href = "/";
+      }
     } catch (error) {
       console.error("Error:", error);
     }
