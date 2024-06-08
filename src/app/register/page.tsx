@@ -30,7 +30,7 @@ const RegisterPage = () => {
       }
 
       const result = await response.json();
-      if (result.success == true) {
+      if (result?.success == true) {
         toast.message("Login Successful");
         window.location.href = "/";
       }
